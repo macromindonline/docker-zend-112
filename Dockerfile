@@ -1,4 +1,4 @@
-FROM macromind/docker-apache-php55:1.0
+FROM macromind/docker-apache-php55
 MAINTAINER MACROMIND Online <idc@macromind.online>
 LABEL description="Zend Framework 1.12"
 
