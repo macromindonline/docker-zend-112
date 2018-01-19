@@ -10,5 +10,4 @@ EXPOSE 80
 
 WORKDIR /var/www/html/
 
-ENTRYPOINT ["/usr/sbin/apachectl"]
-CMD ["-D","FOREGROUND"]
+CMD ["apache2-foreground"]
